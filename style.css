@@ -216,6 +216,7 @@ svg {
 .hero {
   background-color: var(--clr-primary-900);
   padding-block: var(--size-1);
+  overflow: hidden;
 }
 
 @media (max-width: 576px) {
@@ -352,7 +353,7 @@ svg {
   margin-bottom: var(--size-1);
 }
 
-.about .even-columns {
+.about .about-wrapper {
   margin-bottom: var(--size-7);
 }
 
@@ -904,6 +905,79 @@ svg {
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
   font-weight: var(--fw-bold);
+  border: 1px solid var(--clr-primary-500);
+}
+
+.hero .anim1 {
+  animation: anim1 0.5s ease-in;
+  -webkit-animation: anim1 0.5s ease-in;
+}
+
+.hero .anim2 {
+  animation: anim2 0.6s ease-in-out;
+  -webkit-animation: anim2 0.6s ease-in-out;
+}
+
+.hero .anim3 {
+  animation: anim3 var(--is) ease-in;
+  -webkit-animation: anim3 var(--is) ease-in;
+}
+
+@keyframes anim1 {
+  from {
+    transform: translateX(-300px);
+    -webkit-transform: translateX(-300px);
+    -moz-transform: translateX(-300px);
+    -ms-transform: translateX(-300px);
+    -o-transform: translateX(-300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes anim3 {
+  from {
+    transform: translateY(300px);
+    -webkit-transform: translateY(300px);
+    -moz-transform: translateY(300px);
+    -ms-transform: translateY(300px);
+    -o-transform: translateY(300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes anim2 {
+  from {
+    transform: translateX(300px);
+    -webkit-transform: translateX(300px);
+    -moz-transform: translateX(300px);
+    -ms-transform: translateX(300px);
+    -o-transform: translateX(300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 /* scroll animation */
