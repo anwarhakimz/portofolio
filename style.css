@@ -375,14 +375,14 @@ svg {
   z-index: 0;
   top: 0;
   left: 0;
-  transform: rotate(90deg) translate(120px, 56px);
-  -webkit-transform: rotate(90deg) translate(120px, 56px);
-  -moz-transform: rotate(90deg) translate(120px, 56px);
-  -ms-transform: rotate(90deg) translate(120px, 56px);
-  -o-transform: rotate(90deg) translate(120px, 56px);
+  transform: rotate(90deg) translate(120px, 54.5px);
+  -webkit-transform: rotate(90deg) translate(120px, 54.5px);
+  -moz-transform: rotate(90deg) translate(120px, 54.5px);
+  -ms-transform: rotate(90deg) translate(120px, 54.5px);
+  -o-transform: rotate(90deg) translate(120px, 54.5px);
 }
 
-@media (max-width: 567px) {
+/* @media (max-width: 567px) {
   .order-line:not(.order-line:last-child)::after {
     content: "";
     width: 100px;
@@ -398,7 +398,7 @@ svg {
     -ms-transform: rotate(90deg) translate(100px, 38px);
     -o-transform: rotate(90deg) translate(100px, 38px);
   }
-}
+} */
 
 @media (max-width: 374px) {
   .order-line::before {
