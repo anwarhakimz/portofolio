@@ -368,18 +368,18 @@ svg {
 
 .order-line:not(.order-line:last-child)::after {
   content: "";
-  width: 100px;
+  width: 130px;
   height: 1px;
   border: 1px solid var(--clr-neutral-100);
   position: absolute;
   z-index: 0;
   top: 0;
   left: 0;
-  transform: rotate(90deg) translate(100px, 39px);
-  -webkit-transform: rotate(90deg) translate(100px, 39px);
-  -moz-transform: rotate(90deg) translate(100px, 39px);
-  -ms-transform: rotate(90deg) translate(100px, 39px);
-  -o-transform: rotate(90deg) translate(100px, 39px);
+  transform: rotate(90deg) translate(120px, 55px);
+  -webkit-transform: rotate(90deg) translate(120px, 55px);
+  -moz-transform: rotate(90deg) translate(120px, 55px);
+  -ms-transform: rotate(90deg) translate(120px, 55px);
+  -o-transform: rotate(90deg) translate(120px, 55px);
 }
 
 @media (max-width: 374px) {
