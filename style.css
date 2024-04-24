@@ -382,6 +382,24 @@ svg {
   -o-transform: rotate(90deg) translate(120px, 56px);
 }
 
+@media (max-width: 567px) {
+  .order-line:not(.order-line:last-child)::after {
+    content: "";
+    width: 100px;
+    height: 1px;
+    border: 1px solid var(--clr-neutral-100);
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    transform: rotate(90deg) translate(100px, 38px);
+    -webkit-transform: rotate(90deg) translate(100px, 38px);
+    -moz-transform: rotate(90deg) translate(100px, 38px);
+    -ms-transform: rotate(90deg) translate(100px, 38px);
+    -o-transform: rotate(90deg) translate(100px, 38px);
+  }
+}
+
 @media (max-width: 374px) {
   .order-line::before {
     content: counter(count);
@@ -412,24 +430,6 @@ svg {
     -moz-transform: rotate(90deg) translate(120px, 55px);
     -ms-transform: rotate(90deg) translate(120px, 55px);
     -o-transform: rotate(90deg) translate(120px, 55px);
-  }
-}
-
-@media (max-width: 567px) {
-  .order-line:not(.order-line:last-child)::after {
-    content: "";
-    width: 100px;
-    height: 1px;
-    border: 1px solid var(--clr-neutral-100);
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    transform: rotate(90deg) translate(100px, 38px);
-    -webkit-transform: rotate(90deg) translate(100px, 38px);
-    -moz-transform: rotate(90deg) translate(100px, 38px);
-    -ms-transform: rotate(90deg) translate(100px, 38px);
-    -o-transform: rotate(90deg) translate(100px, 38px);
   }
 }
 
