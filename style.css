@@ -246,7 +246,7 @@ svg {
 .hero-image img {
   width: 90%;
   height: 100%;
-  margin-right: auto;
+  margin-inline: auto;
 }
 
 @media (max-width: 768px) {
