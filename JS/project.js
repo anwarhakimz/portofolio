@@ -65,7 +65,7 @@ const projects = [
   {
     trans: "1.25s",
     nama: "Contruction Company Website",
-    image: "img/projects/contraction.png",
+    image: "img/projects/Contraction.png",
     languages: [
       { img: "img/language/html-icon.png", alt: "HTML" },
       { img: "img/language/css-icon.png", alt: "CSS" },
