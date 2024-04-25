@@ -18,7 +18,7 @@ const projects = [
     ],
     description:
       "Muslim website a website that I created using by HTML, Sass,and  javascript. This Website displays information about Prayer time, Hadist, Doa, Asmaul-Husna and Al-Quran, Spesific prayer timing by user location and only in city Indonesia, automated system to play the Azan audio when the time for each prayer (Subuh, Dzuhur, Asar, Maghrib, and Isya) arrives. Hadist Page with Nine Narrators Website aims to provide authentic and verified collections of hadiths narrated by nine narrators (perawi).and display page doa with 108 Doa, page Asmaul Husna 99 name of Allah, and Connect to Website Al-Quran",
-    preview: "https://anwarhakimz.github.io/Muslim-App/",
+    preview: "https://anwarhakim31.github.io/MuslimApp/",
   },
   {
     trans: "0.75s",
